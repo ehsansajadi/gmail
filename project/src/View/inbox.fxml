@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="400.0" style="-fx-background-color: #53005d;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.inboxController">
+   <children>
+      <Button fx:id="compose" layoutX="158.0" layoutY="566.0" mnemonicParsing="false" onAction="#compose" prefHeight="31.0" prefWidth="90.0" text="compose" />
+      <TextArea fx:id="inboxt" layoutX="48.0" layoutY="135.0" prefHeight="366.0" prefWidth="305.0">
+         <effect>
+            <InnerShadow />
+         </effect>
+      </TextArea>
+      <Label fx:id="inbox" layoutX="174.0" layoutY="64.0" prefHeight="35.0" prefWidth="59.0" text="inbox" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>
